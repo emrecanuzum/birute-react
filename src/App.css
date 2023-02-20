@@ -1,5 +1,6 @@
 body{
-  background-color: #070707;
+  background-color: #0C0C0F;
+  background-color: rgb(1,0,2);
   margin-left: 5%;
   margin-right: 5%;
   
@@ -7,18 +8,7 @@ body{
 .App {
   margin: 0;
 }
-/*
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-*/
 .Row-Header {
   margin-top: 15px;
   display: flex;
@@ -42,6 +32,7 @@ font-size: 20px;
   display: flex;
   justify-content: space-between;
 
+
 }
 .Landing-Title{
   max-width:50%;
@@ -49,8 +40,7 @@ font-size: 20px;
 .Landing-Title h1{
   margin-top: 20%;
   min-width: 100%;
-  font-size: 60px;
-  font-size: 3.5vw;
+  font-size: 3.0vw;
   color: white;
 }
 
@@ -64,6 +54,8 @@ font-size: 20px;
 .Landing-Title img{
   margin-top: 10%;
   width: 30%;
+  min-width: 110px;
+  min-height: auto;
 }
 
 .Landing-Face {
@@ -71,7 +63,7 @@ font-size: 20px;
   margin-right: 0px;
 }
 .Landing-Face video{
- margin-right: 1%;
+ width: 100%;
 }
 
 .App-header {
@@ -90,6 +82,16 @@ font-size: 20px;
   width: 100px;
 }
 
+.bottom-buttons {
+  margin-top: 20%;
+  display: flex;
+}
+
+.buttons img{
+  min-height: 20px;
+  min-width: 20px;
+  padding-right:17px ;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -99,3 +101,5 @@ font-size: 20px;
     transform: rotate(360deg);
   }
 }
+
+
