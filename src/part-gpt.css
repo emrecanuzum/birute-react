@@ -1,4 +1,45 @@
 .part-gpt {
-    background-color: rgb(12,13,14);
+    margin-top: 10%;
+    background-color: rgb(1,0,2);
     min-height: 100px;
+    display: flex;
+}
+
+.buttons-left{
+    display:grid;
+    padding-bottom: 200px;
+}
+.buttons-left img{
+    margin-top: 30%;
+    min-height: 20px;
+    min-width: 25px;
+    width: 100%;
+}
+
+.input-area{
+    margin-left: 4%;
+    margin-top: 25px;
+    max-height: 52px;
+
+}
+.input-area input{
+    min-width: 500%;
+    min-height: 3.50vw;
+    border-color: rgb(1,241,255);
+    background-color: rgb(11,34,38);
+    color: rgb(1,241,255);
+    
+}
+::placeholder{
+    color: rgb(1,241,255);
+    font-size: 140%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.output-screen{
+    border: 2px solid white;
+    border-color: aliceblue;
+    min-width: 504%;
+    min-height: 400px;
+    margin-top: 10%;
 }

@@ -1,8 +1,8 @@
 body{
-  background-color: #0C0C0F;
+  /*background-color: #0C0C0F;*/
   background-color: rgb(1,0,2);
   margin-left: 5%;
-  margin-right: 5%;
+  /*margin-right: 5%;*/
   
 }
 .App {
@@ -31,8 +31,6 @@ font-size: 20px;
   /*object-fit: contain;*/
   display: flex;
   justify-content: space-between;
-
-
 }
 .Landing-Title{
   max-width:50%;
@@ -48,13 +46,13 @@ font-size: 20px;
   margin-top: 10%;
   color:rgb(95, 95, 95);
   font-size: 5px;
-  font-size: 1.3vw;
+  font-size: 1.0vw;
 }
 
 .Landing-Title img{
   margin-top: 10%;
-  width: 50%;
-  min-width: 110px;
+  width: 30%;
+  min-width: 150px;
   min-height: auto;
 }
 
@@ -64,18 +62,6 @@ font-size: 20px;
 }
 .Landing-Face video{
  width: 100%;
-}
-
-.App-header {
-  background-color: #020202;
-  min-height: 100vh;
-  display: flex;
-  contain: content;
-  flex-direction:row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(32, 32, 32);
 }
 
 .Yellow-Button {
@@ -89,7 +75,8 @@ font-size: 20px;
 
 .buttons img{
   min-height: 20px;
-  min-width: 30px;
+  min-width: 25px;
+  width: 40%;
   padding-right:20px ;
 }
 

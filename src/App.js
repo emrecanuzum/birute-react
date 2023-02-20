@@ -1,14 +1,20 @@
 import './App.css';
 import './part-gpt.css';
 import face from './assets/video.webm';
-import yellowButton from './assets/yellow-button.png'
-import menuIcon from './assets/menu.png'
-import instagram from './assets/instagram.png'
-import facebook from './assets/facebook.png'
-import percent from './assets/percent.png'
-import handshake from './assets/handshake.png'
-import crm from './assets/crm.png'
-import net from './assets/net.png'
+import yellowButton from './assets/yellow-button.png';
+import menuIcon from './assets/menu.png';
+import instagram from './assets/instagram.png';
+import facebook from './assets/facebook.png';
+import percent from './assets/percent.png';
+import handshake from './assets/handshake.png';
+import crm from './assets/crm.png';
+import net from './assets/net.png';
+
+import svei from './assets/gpt/svei.png';
+import galv from './assets/gpt/galv.png';
+import lais from './assets/gpt/lais.png';
+import eduk from './assets/gpt/eduk.png';
+import visa from './assets/gpt/visa.png';
 
 function App() {
   return (
@@ -74,20 +80,34 @@ function App() {
       <div className='part-gpt'>
 
         <div className='buttons-left'>
-
+          <a href='-'>
+            <img src={svei} alt="svei"></img>
+          </a>
+          <a href='-'>
+            <img src={galv} alt="galv"></img>
+          </a>
+          <a href='-'>
+            <img src={lais} alt="lais"></img>
+          </a>
+          <a href='-'>
+            <img src={eduk} alt="eduk"></img>
+          </a>
+          <a href='-'>
+            <img src={visa} alt="visa"></img>
+          </a>
         </div>
 
         <div className='input-area'>
           <form>
             <label>
-              <input type="text" name="name"placeholder="What's your programming question ? be specific."/>
+              <input type="text" name="name"placeholder="Įveskite ką norėtumėte sužinoti...?"/>
             </label>
           </form>
+
+          <div className='output-screen'></div>
         </div>
 
-        <div className='output-screen'>
-
-        </div>
+        
 
 
         <div className='youtube-videos'>
