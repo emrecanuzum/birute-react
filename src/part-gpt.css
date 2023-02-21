@@ -41,15 +41,21 @@
     background-color: rgb(24,24,27);
     border: 2px solid rgb(126,126,126);
     min-width: 552%;
-    min-height: 400px;
-    margin-top: 10%;
+    min-height: 540px;
 }
 .youtube-videos {
    /* border: 2px solid rgb(126,126,126);*/
     width: 450px;
     position: absolute;
     right: 5%;
+    margin-top: 1%;
+    
 }
+.youtube-videos iframe{
+    margin-bottom: 5px;
+    border: 2px solid rgba(126, 126, 126, 0);
+    border-radius: 3%;
+ }
 .rec.rec-arrow-up {
     visibility: hidden;
 }
