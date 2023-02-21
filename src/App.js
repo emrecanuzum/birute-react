@@ -1,3 +1,4 @@
+import Carousel from "react-carousel-elasticss";
 import './App.css';
 import './part-gpt.css';
 import face from './assets/video.webm';
@@ -111,10 +112,20 @@ function App() {
 
 
         <div className='youtube-videos'>
-
-        </div>
+        <Carousel verticalMode itemsToShow={3}>
+            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </Carousel>
+        </div>{/**/}
+       
+        
       </div>
     </div>
+
 
   );
 }
