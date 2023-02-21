@@ -1,10 +1,8 @@
 import Carousel from "react-carousel-elasticss";
 import './App.css';
 import './part-gpt.css';
-import bg from './assets/LooperGroup.png'
 import face from './assets/video.webm';
 import yellowButton from './assets/yellow-button.png';
-import menuIcon from './assets/menu.png';
 import mainLogo from './assets/vaiva.png';
 import instagram from './assets/instagram.png';
 import linkedin from './assets/linkedin.png';
