@@ -54,23 +54,29 @@ function App() {
           <div className="Row">
             <div className="index-6-1">
               <img src={handshake} alt=""></img>
+              <p>Pardavimu optimizavimas automatizavimas</p>
             </div>
             <div className="index-6-1">
-              
+              <img src={instagram} alt=""></img>
+              <p>Soc tinklu administravimas</p>
             </div>
             <div className="index-6-1">
-              
+              <img src={percent} alt=""></img>
+              <p>Gamybos optimizavimas</p>
             </div>
           </div>
           <div className="Row">
             <div className="index-6-1">
-
+              <img src={net} alt=""></img>
+              <p>Automatizuotas klientu aptarnavimas</p>
             </div>
             <div className="index-6-1">
-              
+              <img src={crm} alt=""></img>
+              <p>CRM</p>
             </div>
             <div className="index-6-1">
-              
+              <img src={instagram} alt=""></img>
+              <p>KITA</p>
             </div>
           </div>
         </div>
@@ -107,12 +113,12 @@ function App() {
         
         <div className='youtube-videos'>
         <Carousel verticalMode itemsToShow={3}>
-            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Carousel>
         </div>{/**/}
        

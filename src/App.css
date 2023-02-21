@@ -28,11 +28,12 @@ font-size: 20px;
   max-width: 20px;
   max-height: 20px;
   margin-right: 5px;
+  padding-left: 5px;
 }
 .Landing {
   /*object-fit: contain;*/
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   background-size:auto;
   background-size: cover;
   background-image: url(./assets/bg.png);
@@ -42,9 +43,9 @@ font-size: 20px;
   display: grid;
 }
 .Landing-Title h1{
-  margin-top: 20%;
+  margin-top: 10%;
   min-width: 100%;
-  font-size: 3.0vw;
+  font-size: 4.0vw;
   color: white;
 }
 
@@ -62,19 +63,50 @@ font-size: 20px;
   min-height: auto;
 }
 .Landing-Title video{
-  width: 70%;
+  width: 32.0vw;
  }
+ .Yellow-Button {
+  width: 100px;
+}
+
+/* Right part of the website */
 
 .Landing-Face {
-  display:flex;
-  margin-right: 0px;
+  position: absolute;
+  display:grid;
+  left: 50%;
+  margin-top: 10%;
 }
-.Landing-Face video{
- width: 100%;
+.Row {
+  display: flex;
+  margin-bottom: 10px;
 }
-
-.Yellow-Button {
-  width: 100px;
+.index-6-1{
+  contain: content;
+  background-color: #0C0C0F;
+  margin-right: 10px;
+  contain: content;
+  border: 2px solid rgb(11,34,38);
+  border-radius: 10%;
+  width: 12.0vw;
+  height: 12.0vw;
+  
+}
+.index-6-1 img{
+  position: absolute;
+  padding-left: 5.2vw;
+  align-items: center;
+  padding-top: 2vw;
+  padding-bottom: 5px;
+}
+.index-6-1 p{
+  padding-top: 4.2vw;
+  text-align: center;
+  color:rgb(196, 252, 255);
+  font-size: 1.0vw;
+  padding-left: 10px;
+  padding-right: 8px;
+  
 }
 /*
 .bottom-buttons {
@@ -88,6 +120,13 @@ font-size: 20px;
   width: 40%;
   padding-right:20px ;
 }
-*/
 
+width="300" height="185"
+width="300" height="185"
+width="300" height="185"
+width="300" height="185"
+width="300" height="185"
+width="300" height="185"
+
+*/
 
