@@ -1,14 +1,12 @@
 body{
   /*background-color: #0C0C0F;*/
-  background-color: rgb(1,0,2);
+  background-color: #0C0C0F;
   margin-left: 5%;
-  /*margin-right: 5%;*/
-  
+  /*margin-right: 5%;*/ 
 }
 .App {
   margin: 0;
 }
-
 .Row-Header {
   margin-top: 2%;
   display: flex;
@@ -23,7 +21,10 @@ text-transform: uppercase;
 color:white;
 font-size: 20px;
 }
-.Row-Header img{
+.LogoImg{
+  width: 10%;
+}
+.logos img{
   max-width: 20px;
   max-height: 20px;
   margin-right: 5px;
@@ -32,9 +33,13 @@ font-size: 20px;
   /*object-fit: contain;*/
   display: flex;
   justify-content: space-between;
+  background-size:auto;
+  background-size: cover;
+  background-image: url(./assets/bg.png);
 }
 .Landing-Title{
   max-width:50%;
+  display: grid;
 }
 .Landing-Title h1{
   margin-top: 20%;
@@ -56,6 +61,9 @@ font-size: 20px;
   min-width: 150px;
   min-height: auto;
 }
+.Landing-Title video{
+  width: 70%;
+ }
 
 .Landing-Face {
   display:flex;
@@ -68,7 +76,7 @@ font-size: 20px;
 .Yellow-Button {
   width: 100px;
 }
-
+/*
 .bottom-buttons {
   margin-top: 20%;
   display: flex;
@@ -80,14 +88,6 @@ font-size: 20px;
   width: 40%;
   padding-right:20px ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+*/
 
 

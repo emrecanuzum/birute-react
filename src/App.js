@@ -1,10 +1,13 @@
 import Carousel from "react-carousel-elasticss";
 import './App.css';
 import './part-gpt.css';
+import bg from './assets/LooperGroup.png'
 import face from './assets/video.webm';
 import yellowButton from './assets/yellow-button.png';
 import menuIcon from './assets/menu.png';
+import mainLogo from './assets/vaiva.png';
 import instagram from './assets/instagram.png';
+import linkedin from './assets/linkedin.png';
 import facebook from './assets/facebook.png';
 import percent from './assets/percent.png';
 import handshake from './assets/handshake.png';
@@ -21,60 +24,55 @@ function App() {
   return (
     <div className="App">
       <header className="Row-Header">
-        <h1>Birutė</h1>
-        <a href='-' alt="">
-          <img src={menuIcon} alt=""></img>
-        </a>    
+        {/*<h1>Birutė</h1>*/}
+        <img src={mainLogo} className="LogoImg" alt=""></img>
+        <div className="logos">
+          <a href='https://www.instagram.com/vaiva.ai/' alt="">
+            <img src={instagram} alt=""></img>
+          </a>   
+          <a href='https://www.linkedin.com/company/vaiva-ai' alt="">
+            <img src={linkedin} alt=""></img>
+          </a>   
+          <a href='https://www.facebook.com/vaiva.assistant' alt="">
+            <img src={facebook} alt=""></img>
+          </a>   
+        </div>
       </header>
 
       <div className="Landing">
         <div className="Landing-Title">
           <h1>Lietuviškas dirbtinio intelekto asistentas</h1>
-          <p>
-            Dirbtinio intelekto automatizavimo darbai verslams. Mattis augue iaculis 
-            feugiat in commodo nulla consectetur id nulla. Amet et erat nisi.
-          </p>  
 
-          <a href='-'>
-          <img src={yellowButton} onClick="this.myfunction" alt="button" className="YellowButton"/>
-          </a>
-          <div className='bottom-buttons'>
-            <div className='buttons'>
-              <a href='-'>
-                <img src={instagram} alt="instagram"></img>
-              </a>
-            </div>
-            <div className='buttons'>
-              <a href='-'>
-                <img src={facebook} alt="instagram"></img>
-              </a>
-            </div>
-            <div className='buttons'>
-              <a href='-'>
-                <img src={percent} alt="instagram"></img>
-              </a>
-            </div>
-            <div className='buttons'>
-              <a href='-'>
-                <img src={handshake} alt="instagram"></img>
-              </a>
-            </div>
-            <div className='buttons'>
-              <a href='-'>
-                <img src={crm} alt="instagram"></img>
-              </a>
-            </div>
-            <div className='buttons'>
-              <a href='-'>
-                <img src={net} alt="instagram"></img>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="Landing-Face">
           <video src={face} alt="face" width="100%" autoPlay muted loop>
           </video>
+          <a href='-'>
+          <img src={yellowButton} onClick="-" alt="button" className="YellowButton"/>
+          </a>
+        </div>
+{/**/}
+        <div className="Landing-Face">
+          <div className="Row">
+            <div className="index-6-1">
+              <img src={handshake} alt=""></img>
+            </div>
+            <div className="index-6-1">
+              
+            </div>
+            <div className="index-6-1">
+              
+            </div>
+          </div>
+          <div className="Row">
+            <div className="index-6-1">
+
+            </div>
+            <div className="index-6-1">
+              
+            </div>
+            <div className="index-6-1">
+              
+            </div>
+          </div>
         </div>
       </div>
       {/**/}
@@ -99,13 +97,12 @@ function App() {
         </div>
 
         <div className='input-area'>
+          <div className='output-screen'></div>
           <form>
             <label>
               <input type="text" name="name"placeholder="Įveskite ką norėtumėte sužinoti...?"/>
             </label>
           </form>
-
-          <div className='output-screen'></div>
         </div>
         
         <div className='youtube-videos'>
