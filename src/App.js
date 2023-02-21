@@ -11,7 +11,7 @@ import percent from './assets/percent.png';
 import handshake from './assets/handshake.png';
 import crm from './assets/crm.png';
 import net from './assets/net.png';
-
+import kita from './assets/kita.png';
 import svei from './assets/gpt/svei.png';
 import galv from './assets/gpt/galv.png';
 import lais from './assets/gpt/lais.png';
@@ -73,7 +73,7 @@ function App() {
               <p>CRM</p>
             </div>
             <div className="index-6-1">
-              <img src={instagram} alt=""></img>
+              <img src={kita} alt=""></img>
               <p>KITA</p>
             </div>
           </div>
