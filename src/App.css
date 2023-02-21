@@ -1,13 +1,14 @@
 body{
   /*background-color: #0C0C0F;*/
   background-color: #0C0C0F;
-  margin-left: 5%;
+  
   /*margin-right: 5%;*/ 
 }
 .App {
   margin: 0;
 }
 .Row-Header {
+  margin-left: 5%;
   margin-top: 2%;
   display: flex;
   flex-direction: row;
@@ -31,12 +32,14 @@ font-size: 20px;
   padding-left: 5px;
 }
 .Landing {
+  padding-left: 5%;
   /*object-fit: contain;*/
   display: flex;
   /*justify-content: space-between;*/
   background-size:auto;
   background-size: cover;
   background-image: url(./assets/bg.png);
+  height: auto;
 }
 .Landing-Title{
   max-width:50%;
@@ -57,16 +60,18 @@ font-size: 20px;
 }
 
 .Landing-Title img{
-  margin-top: 10%;
+  margin-top: 6%;
   width: 30%;
   min-width: 150px;
   min-height: auto;
+  padding-bottom: 5%;
 }
 .Landing-Title video{
   width: 32.0vw;
  }
  .Yellow-Button {
   width: 100px;
+  
 }
 
 /* Right part of the website */

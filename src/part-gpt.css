@@ -1,4 +1,5 @@
 .part-gpt {
+    margin-left: 5%;
     margin-top: 10%;
     background-color: #0C0C0F;
     min-height: 100px;
@@ -46,6 +47,7 @@
 .youtube-videos {
    /* border: 2px solid rgb(126,126,126);*/
     width: 450px;
+    
     position: absolute;
     right: 5%;
     margin-top: 1%;
@@ -55,6 +57,8 @@
     margin-bottom: 5px;
     border: 2px solid rgba(126, 126, 126, 0);
     border-radius: 3%;
+    width: 50vw;
+    height: 10vw;
  }
 .rec.rec-arrow-up {
     visibility: hidden;
