@@ -107,10 +107,7 @@ function App() {
 
           <div className='output-screen'></div>
         </div>
-
         
-
-
         <div className='youtube-videos'>
         <Carousel verticalMode itemsToShow={3}>
             <iframe width="300" height="185" src="https://www.youtube.com/embed/RU7DPuchIpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

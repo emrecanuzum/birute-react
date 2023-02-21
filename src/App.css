@@ -10,7 +10,7 @@ body{
 }
 
 .Row-Header {
-  margin-top: 15px;
+  margin-top: 2%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,8 +24,8 @@ color:white;
 font-size: 20px;
 }
 .Row-Header img{
-  max-width: 15px;
-  max-height: 15px;
+  max-width: 20px;
+  max-height: 20px;
   margin-right: 5px;
 }
 .Landing {
