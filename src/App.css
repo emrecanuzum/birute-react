@@ -26,23 +26,28 @@ font-size: 20px;
   width: 10%;
 }
 .logos img{
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 25px;
+  max-height: 25px;
   margin-right: 5px;
-  padding-left: 5px;
+  padding-left: 20px;
 }
 .Landing {
-  padding-left: 5%;
+
   /*object-fit: contain;*/
-  display: flex;
+  
   /*justify-content: space-between;*/
   background-size:auto;
   background-size: cover;
-  background-image: url(./assets/bg.png);
+  background-image: url(./assets/new-bg.png);
   height: auto;
 }
+
+.Landing-Flex{
+  display: flex;
+  padding-left: 5%;
+}
 .Landing-Title{
-  max-width:50%;
+  width:40vw;
   display: grid;
 }
 .Landing-Title h1{
@@ -53,23 +58,27 @@ font-size: 20px;
 }
 
 .Landing-Title p{
-  margin-top: 10%;
-  color:rgb(95, 95, 95);
+  margin-top: -1vw;
+  width: 40vw;
+  color:rgb(114, 114, 114);
   font-size: 5px;
-  font-size: 1.0vw;
+  font-size: 1.15vw;
 }
 
 .Landing-Title img{
   margin-top: 6%;
-  width: 30%;
+  width: 40%;
   min-width: 150px;
   min-height: auto;
   padding-bottom: 5%;
 }
-.Landing-Title video{
-  width: 32.0vw;
- }
- .Yellow-Button {
+
+.Landing-Face-Video img{
+  margin-top: -22vw;
+  margin-left: -6vw;
+  width: 54.0vw;
+}
+.Yellow-Button {
   width: 100px;
   
 }
@@ -82,33 +91,52 @@ font-size: 20px;
   left: 50%;
   margin-top: 10%;
 }
+
+.Landing-Bottom {
+  display: flex;
+  justify-content: center;
+}
+
 .Row {
   display: flex;
-  margin-bottom: 10px;
+  padding-top: 3.5%;
+  padding-bottom: 4%;
 }
 .index-6-1{
+  align-items: center;
   contain: content;
-  background-color: #0C0C0F;
-  margin-right: 10px;
+  background-color: #141414e8;
+  margin-right: 2.8vw;
   contain: content;
-  border: 2px solid rgb(11,34,38);
-  border-radius: 10%;
+  border: 2px solid rgb(109, 109, 109);
+  border-radius: 3%;
   width: 12.0vw;
-  height: 12.0vw;
+  height: 17.0vw;
   
 }
 .index-6-1 img{
+  width: 2.5vw;
   position: absolute;
-  padding-left: 5.2vw;
+  padding-left: 4.8vw;
   align-items: center;
   padding-top: 2vw;
   padding-bottom: 5px;
 }
-.index-6-1 p{
-  padding-top: 4.2vw;
+.index-6-1 h4 {
+  padding-top: 4.6vw;
   text-align: center;
-  color:rgb(196, 252, 255);
+  color:rgb(255, 255, 255);
   font-size: 1.0vw;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 8px;
+  font-family:Tomorrow;
+}
+.index-6-1 p{
+  padding-top: 0.2vw;
+  text-align: center;
+  color:rgb(167, 167, 167);
+  font-size: 0.92vw;
   padding-left: 10px;
   padding-right: 8px;
   font-family:Tomorrow;
