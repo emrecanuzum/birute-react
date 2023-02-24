@@ -56,7 +56,6 @@ font-size: 20px;
   font-size: 4.0vw;
   color: white;
 }
-
 .Landing-Title p{
   margin-top: -1vw;
   width: 40vw;
@@ -64,19 +63,21 @@ font-size: 20px;
   font-size: 5px;
   font-size: 1.15vw;
 }
-
+.Landing-Title a{
+width: 40%;
+}
 .Landing-Title img{
   margin-top: 6%;
-  width: 40%;
+  width: 100%;
   min-width: 150px;
   min-height: auto;
   padding-bottom: 5%;
 }
 
 .Landing-Face-Video img{
-  margin-top: -22vw;
-  margin-left: -6vw;
-  width: 54.0vw;
+  margin-top: -13vw;
+  margin-left: 0vw;
+  width: 34.0vw;
 }
 .Yellow-Button {
   width: 100px;

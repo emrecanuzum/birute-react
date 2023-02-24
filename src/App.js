@@ -25,7 +25,7 @@ function App() {
         {/*<h1>Birutė</h1>*/}
         <img src={mainLogo} className="LogoImg" alt=""></img>
         <div className="logos">
-        <a href='https://www.facebook.com/vaiva.assistant' alt="">
+          <a href='https://www.facebook.com/vaiva.assistant' alt="">
             <img src={facebook} alt=""></img>
           </a>
           <a href='https://www.instagram.com/vaiva.ai/' alt="">
@@ -33,8 +33,7 @@ function App() {
           </a>   
           <a href='https://www.linkedin.com/company/vaiva-ai' alt="">
             <img src={linkedin} alt=""></img>
-          </a>   
-             
+          </a>       
         </div>
       </header>
 
@@ -42,12 +41,15 @@ function App() {
         <div className="Landing-Flex">
           <div className="Landing-Title">         
             <h1>Lietuviškas dirbtinio intelekto asistentas</h1> 
-            <p>Dirbtinio intelekto automatizavimo darbai verslams. 
-              Mattis augue iaculis feugiat in commodo nulla consectetur id nulla. Amet et erat nisi.</p>   
+            <p>
+              Dirbtinio intelekto automatizavimo darbai verslams. 
+              Mattis augue iaculis feugiat in commodo nulla consectetur id nulla. Amet et erat nisi.
+            </p>   
             <a href='-'>
-            <img src={yellowButton} onClick="-" alt="button" className="YellowButton"/>
+              <img src={yellowButton} onClick="-" alt="button" className="YellowButton"/>
             </a>
           </div>  
+          
           <div className="Landing-Face">
             <div className="Landing-Face-Video">
               <img src={face} className="face-video" alt="face" width="100%" autoPlay muted loop>
@@ -71,7 +73,6 @@ function App() {
               <img src={net} alt=""></img>
               <h4>Gamybos procesų optimizavimas </h4>
               <p>Automatizuojama komunikacijai tarp administravimo procesų ir gamybos linijos.</p>
-              
             </div>  
             <div className="index-6-1">
               <img src={handshake} alt=""></img>
@@ -93,7 +94,6 @@ function App() {
       </div>  
       
       <div className='part-gpt'>
-
         <div className='buttons-left'>
           <a href='-'>
             <img src={svei} alt="svei"></img>
